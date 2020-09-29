@@ -17,14 +17,14 @@ Launches the test runner.
 
 To get the movie trailer, you have to Post a Viaplay Content API movie url as following:
 
-####`Post / localhost:3005/trailers`
-#####request body:
+#### `Post / localhost:3005/trailers`
+##### request body:
 ```json
 {
     "url":"http://content.viaplay.se/pc-se/film/21-bridges-2019"
 }
 ```
-#####response:
+##### response:
 ```json
 {
     "trailer_url": "https://www.youtube.com/watch?v=qaZoSTG10lw"
