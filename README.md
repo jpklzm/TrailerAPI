@@ -17,7 +17,7 @@ Launches the test runner.
 
 To get the movie trailer, you have to Post a Viaplay Content API movie url as following:
 
-#### `Post / localhost:3005/trailers`
+#### `Post / http://localhost:3005/trailers`
 ##### request body:
 ```json
 {
