@@ -35,6 +35,6 @@ To get the movie trailer, you have to Post a Viaplay Content API movie url as fo
 }
 ```
 
-## Handling heavy load of requests
+## Handling heavy loads of requests
 
-Considering the amount of requests expected, we should setup a Api Gateway (or at least a Load Balancer) to distribute the requests among multiple servers in order to deliver a high quality experience for the users.
+Considering the amount of requests expected, we should setup an API Gateway (or at least a Load Balancer) to distribute the requests among multiple servers in order to deliver a high quality experience for the users.
