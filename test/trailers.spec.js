@@ -1,6 +1,6 @@
 const request = require('supertest')
 const should = require('should');
-const app = require('../src/app') // the express server
+const app = require('../src/app')
 const expect = require('chai').expect
 
 it('should respond with a YouTube link on post', function(done) {
