@@ -18,15 +18,23 @@ Launches the test runner.
 To get the movie trailer, you have to Post a Viaplay Content API movie url as following:
 
 #### `Post / http://localhost:3005/trailers`
+
 ##### request body:
+
 ```json
 {
-    "url":"http://content.viaplay.se/pc-se/film/21-bridges-2019"
+  "url": "http://content.viaplay.se/pc-se/film/21-bridges-2019"
 }
 ```
+
 ##### response:
+
 ```json
 {
-    "trailer_url": "https://www.youtube.com/watch?v=qaZoSTG10lw"
+  "trailer_url": "https://www.youtube.com/watch?v=qaZoSTG10lw"
 }
 ```
+
+## Handling heavy load of requests
+
+Considering the amount of requests expected, we should setup a Api Gateway (or at least a Load Balancer) to distribute the requests among multiple servers in order to deliver a high quality experience for the users.
